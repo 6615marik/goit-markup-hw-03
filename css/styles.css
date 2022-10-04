@@ -19,14 +19,44 @@ body{
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-        width: 1600px;}
+        width: 1600px;
+        margin: 0;
+        padding: 0;
+      }
 
- /* footer */
+  .container{
+  width: 1200px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+        /* text-align: center; */
+      }
+   h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+    }
+
+  ul{list-style: none;
+     margin: 0;
+    padding:0;}
+
+  a{text-decoration: none;}
+  /* -------------------------------------header */
+  .header{
+    padding: 25px 15px 25px 15px ;
+    text-align: center;
+  }
+ /*-------------------------------------- footer */
  .footer{
     background: #2F303A;
     width: 1600px;
+    padding: 60px 0;
  }
-
+.nav-contacts-footer{
+  margin-top: 20px;
+}
+address-tel-emal{
+  margin-top: 9px;
+}
  .nav-contacts-footer ,
  .address-tel-emal:hover,
  .nav-contacts-footer, 
@@ -54,10 +84,6 @@ font-weight: 400;
 
 
 
-ul{list-style: none;}
-
-a{text-decoration: none;}
-
 .logo {
     text-decoration: none;
     color: black;
@@ -79,7 +105,7 @@ a{text-decoration: none;}
 color: var(--text-accent);
 }
 
-/* Site nav  */
+/* ---------------------------------------Site nav  */
 .nav-site,
 .nav-site-link{
 color: var(--text-header);
@@ -97,7 +123,7 @@ color: var(--text-accent);
 .nav-site-link.current{
 color: var(--text-accent);
 }
-/* Nav-contact */
+/* --------------------------------------Nav-contact */
 
 .nav-contacts , .nav-contacts-tel{
 color: var(--main-text);
@@ -111,40 +137,47 @@ color: var(--main-text);
 .nav-contacts, .nav-contacts-tel:focus {
 color: var(--text-accent);
 }
-/* hero */
+/* -----------------------------------------hero */
 .hero-start{
  background: #2F303A; 
+ text-align: center;
+ padding: 200px 0;
 }
 .hero-start-header{
   color: var(--text-white);
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    text-align: center;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+
 }  
 
 .hero-button{
-  display: inline-block;
-  text-align: center;
-  padding: 10px 32px;
+display: inline-block;
+text-align: center;
+padding: 10px 32px;
 cursor: pointer;
 background: var(--text-accent);
-  color: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-   font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-  
+color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+margin-top: 30px;
 }
 
-/* benifits */
+/*------------------------------------------- benifits */
 .benifits{
-  padding-top: 94px;
+padding: 94px 0;
 
 }
 .invisible{
@@ -160,13 +193,18 @@ color: var(--text-header);
   text-transform: uppercase;
   }
   .text-benifits {
-    color: var(--main-text);
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.8;
+  color: var(--main-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 10px;
   }
-
-/* advances */
+ /* --------------------------------------------working */
+.working{
+  padding-bottom: 94px;
+ } 
+.list-image{
+  margin-top: 50px;}
 
   .header-two{
     color: var(--text-header);
@@ -176,17 +214,18 @@ color: var(--text-header);
       text-align: center;
   }
 
-/* team */
+/* ------------------------------------------------team */
 .team{
   background: #F5F4FA;
+  padding: 94px 0;
 }
-
-.name-worker{
-color: var(--text-header);
+.team-list{
+  margin-top: 50px;
+  color: var(--text-header);
   font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;}
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;}
 
 
 .team-job{
@@ -194,10 +233,17 @@ color: var(--main-text);
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-text-align: center;}
+text-align: center;
+margin: top 10px; ;
+margin-bottom: 30px;}
 
 
-  /* PORTFOLIO */
+.name-worker{
+margin-top: 30px;
+}
+
+
+  /* -------------------------------------------PORTFOLIO ----------------------------------------------*/
   
 .filtr-tab{
 color: var(--text-header);
@@ -223,7 +269,7 @@ color: #FFFFFF;}
 background-color: var(--text-accent);
 color: #FFFFFF;}
 
-/* content */
+/* -------------------------------------------------------------------content */
 .name-content{
 color: var(--text-header);
   font-weight: 700;
