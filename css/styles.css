@@ -12,7 +12,7 @@ box-sizing: inherit;
 --text-white:#FFFFFF;
 }
 body{
-    background-color:#FFFFFF 
+    background-color:#FFFFFF;
     color: var(--main-text);
       font-family: 'Roboto' , sans-serif;
       letter-spacing: 0.03em;
@@ -28,7 +28,7 @@ body{
   width: 1200px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-        /* text-align: center; */
+        
       }
    h1,h2,h3,h4,p{
     margin: 0;
@@ -42,8 +42,8 @@ body{
   a{text-decoration: none;}
   /* -------------------------------------header */
   .header{
-    padding: 25px 15px 25px 15px ;
-    text-align: center;
+    padding:15px  25px 15px 25px ;
+   
   }
  /*-------------------------------------- footer */
  .footer{
@@ -91,6 +91,7 @@ font-weight: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-right: 93px;
 }
 .logo-footer {
   text-decoration: none;
@@ -106,6 +107,28 @@ color: var(--text-accent);
 }
 
 /* ---------------------------------------Site nav  */
+
+.nav-flex{
+  display: flex;
+  align-items: center;
+}
+.nav-li{
+display: flex;
+}
+.nav-li .item + .item{
+  margin-left: 50px;}
+
+/* .nav-li .item:not(:last-child){
+  margin-left: 40px;
+} */
+
+.nav-contacts{
+  display: flex;
+  margin-left: auto;
+}
+.nav-contacts .item+.item{
+  margin-left: 50px;
+}
 .nav-site,
 .nav-site-link{
 color: var(--text-header);
@@ -244,7 +267,14 @@ margin-top: 30px;
 
 
   /* -------------------------------------------PORTFOLIO ----------------------------------------------*/
-  
+.container-portfolio{
+  width: 1200px;
+  padding:94px 15px 94px 15px;
+  margin: 0 auto;
+}
+.filtr{
+  margin-bottom: 34px;
+}
 .filtr-tab{
 color: var(--text-header);
 display: inline-block;
@@ -275,7 +305,16 @@ color: var(--text-header);
   font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+  }
+.content-list{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+}
+.name-list{
+  padding: 20px 24px;
+}
 .name-projects{
 color: var(--main-text);
   font-weight: 400;
