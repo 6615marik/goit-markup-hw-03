@@ -1,13 +1,11 @@
 html {
-box-sizing:border-box;
-}
+box-sizing:border-box;}
 
 :root{
 --main-text: #757575;
 --text-header:#212121;
 --text-accent:#2196F3;
---text-white:#FFFFFF;
-}
+--text-white:#FFFFFF;}
 body{
     background-color:var(--text-white);
     color: var(--main-text);
@@ -18,16 +16,15 @@ body{
     line-height: 1.2;
     width: 1600px;
     margin: 0;
-    padding: 0;
-    }
+    padding: 0;}
 .section{
   padding: 94px 0 94px 0;
 }
 .container{
   width: 1200px;
   padding: 0 15px 0 15px;
-  margin: 0 auto;
-      }
+  margin: 0 auto;}
+
 h1,h2,h3,h4,p{
     margin: 0;
     padding: 0;
@@ -133,8 +130,7 @@ address-tel-emal{
  .address-tel-emal:hover,
  .nav-contacts-footer, 
  .address-tel-emal:focus {
-  color: var(--text-accent);
- }
+  color: var(--text-accent);}
 
 
 .address-office{
@@ -153,7 +149,6 @@ font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);}
-
 
 
 .logo {
