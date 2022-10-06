@@ -20,6 +20,11 @@ body{
 .section{
   padding: 94px 0 94px 0;
 }
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid #EEEEEE;
+  height: 80px;
+}
 .container{
   width: 1200px;
   padding: 0 15px 0 15px;
@@ -54,11 +59,7 @@ margin: 0;
   overflow: hidden;
 }
   /* -------------------------------------header */
-.header{
-padding:25px 0;
-border-bottom: 1px solid #EEEEEE;
-height: 80px;
-}
+
 /* ---------------------------------------Site nav  */
 
 .nav-flex{
