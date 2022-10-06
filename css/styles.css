@@ -21,9 +21,11 @@ body{
 .section{
   padding: 94px 0 94px 0;
 }
+header{
+border-bottom: 1px solid #EEEEEE;
+}
 .header {
   padding: 25px 0;
-  border-bottom: 1px solid #EEEEEE;
   height: 80px;
   box-sizing: border-box;
 }
@@ -144,14 +146,22 @@ font-weight: 400;
 }
 .address-office:hover,
 .address-office:focus {
-  color: var(--text-accent);}
+ color: var(--text-accent);}
+
 .address-tel-emal{
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);}
+  
 
+.footer-list {
+margin-bottom: 9px;}
+
+.footer-list:last-child {
+margin-bottom: 0;
+}
 
 .logo {
     text-decoration: none;
@@ -350,6 +360,7 @@ display: inline-block;
 text-align: center;
 cursor: pointer;
 background: #F5F4FA;
+border-radius: 4px;
 font-size: 16px;
 line-height: 1.62;
 padding: 6px 22px;
